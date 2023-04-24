@@ -23,7 +23,7 @@ body {
 
 .menu-nav a {
   display: inline-block;
-  color: wheat;
+  color: Teal;
   text-decoration: none;
   margin-left: 10px;
   margin-top: 60px;
@@ -42,6 +42,8 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
+  font-size: 25px;
+  
 }
 
 .hero {
@@ -51,17 +53,45 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  animation: showText 10s linear;
+  overflow: hidden;
+}
+@keyframes showText{
+  0%{
+      transform: translateX(-600%) scale(3,3);
+      opacity: 1;
+  }
+  50%{
+      transform: translateX(600%) scale(3,3);
+      opacity: 1;
+  }
+  75%{
+      transform: translateX(-600%) scale(3,3);
+      text-shadow:none;
+      color: transparent;
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0%) scale(1,1);
+      opacity: 1;
+      text-shadow: 2px 2px 1px black;
+      color:white;
+  }
 }
 .contenedor-texto {
   padding-bottom: 100px;
+  
+
 }
 .hero h1 {
   font-size: 65px;
+  
 }
 .copy {
   font-size: 30px;
   padding: 20px 0;
   font-weight: 300;
+  
 }
 
 .wave {
@@ -107,16 +137,21 @@ body {
 .portafolio {
   height: 600px;
   background: #f2f2f2;
+  
 }
 .portafolio-contenedor {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
 .imagen-contenedor {
   width: 31%;
   height: 200px;
   margin-bottom: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 300ms;
 }
 .imagen-contenedor img {
   display: block;
@@ -125,7 +160,20 @@ body {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 1.5px rgba(58, 58, 58, 0.3);
+  
    
+}
+.portafolio:hover .imagen-contenedor {
+  animation: showIcon 1s linear;
+}
+
+@keyframes showIcon{
+  from{
+      transform: translateY(-300%);
+  }
+  to{
+      transform: translateY(0%);
+  }
 }
 .imagen-contenedor p {
   text-align: center;
@@ -350,7 +398,7 @@ body {
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* responsive*/
 
 @media (max-width: 880px) {
 
@@ -372,3 +420,4 @@ body {
 	}
 
 }
+
