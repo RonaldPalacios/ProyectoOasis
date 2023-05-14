@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/galeria.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d182710ea.js" crossorigin="anonymous"></script>
+    <title>Galeria | Destinos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--El body sera un contenedor flexbox-->
+<body>
+    <!--El header posee un icono de una flecha para volver atras y la palabra galeria para indicar donde estamos-->
+    <header>    
+        <a href="../view/index.html"><i class="fa-solid fa-arrow-left fa-2xl"></i></a>
+        <p id="volver">HOME</p>
+        <p></p>
+    </header>
+    <!--Tendra una serie de "cards" o "tarjetas" que nos permitira seleccionar una de las galerias-->
+    <main class="grid-container">
+        <!--Cada div sera una "card" de un destino en particular-->
+        <div class="item 1">
+            <img src="../public/img/Tokio.jpg" alt="Japon">
+            <a href="../view/destinos/tokio.html"><p class="destino">Tokyo, Japon</p></a>
+            <p>Tokio es la capital de Japón, una ciudad moderna y vibrante, famosa por sus rascacielos, su gastronomía y su cultura popular única. Con una población de más de 13 millones de personas, es una de las ciudades más grandes del mundo y ofrece una amplia variedad de experiencias para cualquier visitante.</p>
+        </div>
+        <div class="item 2">
+            <img src="../public/img/nueva-york.jpg" alt="USA">
+            <a href="../view/destinos/newyork.html"><p class="destino">New York, EE.UU.</p></a>
+            <p>Nueva York es una de las ciudades más icónicas del mundo. Con una población de más de 8 millones de personas, es un centro global de finanzas, moda, arte y entretenimiento. La ciudad está llena de rascacielos impresionantes, restaurantes de clase mundial, museos famosos y tiendas exclusivas, lo que la convierte en una ciudad emocionante para visitar y vivir.</p>
+        </div>
+        <div class="item 3">
+            <img src="../public/img/Paris.jpg" alt="Francia">
+            <a href="../view/destinos/paris.html"><p class="destino">Paris, Francia</p></a>
+            <p>París, la capital de Francia, es una ciudad mundialmente conocida por su belleza, cultura y gastronomía. Con monumentos icónicos como la Torre Eiffel, la Catedral de Notre-Dame y el Arco de Triunfo, es una ciudad que cautiva a visitantes de todo el mundo. Paris también es famosa por su arte, moda y su exquisita gastronomía, que la convierten en una ciudad imprescindible para cualquier viajero.</p>
+        </div>
+        <div class="item 4">
+            <img src="../public/img/Moscu.jpg" alt="Rusia">
+           <a href="../view/destinos/moscu.html"><p class="destino">Moscu, Rusia</p></a>
+            <p>Moscú es la capital de Rusia y es una ciudad histórica y vibrante que mezcla pasado y presente. Con impresionantes edificios soviéticos y monumentos icónicos como la Plaza Roja, es un destino turístico popular. Moscú también ofrece una rica cultura, arte, gastronomía y vida nocturna que la convierten en una ciudad fascinante para visitar.</p>
+        </div>
+        <div class="item 5">
+            <img src="../public/img/hongkong.jpg" alt="China">
+            <a href="../view/destinos/hongkong.html"><p class="destino">Hong Kong, China</p></a>
+            <p>Hong Kong es una ciudad vibrante y emocionante que combina la cultura china y la occidental. Es famosa por sus rascacielos impresionantes, su animada vida nocturna y su deliciosa gastronomía. También es un centro financiero y de compras de renombre mundial, lo que la convierte en una ciudad atractiva tanto para turistas como para empresarios.</p>
+        </div>
+        <div class="item 6">
+            <img src="../public/img/londres.jpg" alt="Inglaterra">
+            <a href="../view/destinos/londres.html"><p class="destino">Londres, Inglaterra</p></a>
+            <p>Londres es una ciudad cosmopolita y emocionante que tiene algo para todos. Con impresionantes edificios históricos como el Big Ben y el Palacio de Buckingham, es una ciudad rica en cultura e historia. Londres también es famosa por su gastronomía, tiendas de lujo, teatros del West End y vida nocturna, lo que la convierte en un destino turístico popular.</p>
+        </div>
+    </main>
+
+    <!--El footer sera iguale en toda las paginas-->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+    
+            <h3>Oasis Travel <span>& Event</span></h3>
+    
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+                
+                <a href="#">Blog</a>
+            
+                <a href="#">Pricing</a>
+            
+                <a href="#">About</a>
+                
+                <a href="#">Faq</a>
+                
+                <a href="#">Contact</a>
+            </p>
+    
+            <p class="footer-company-name">Oasis Travel & Event © 2023</p>
+        </div>
+    
+        <div class="footer-center">
+    
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Medrano 3201</span> Almagro, CABA</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+5491120202020</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@oasistravel.com</a></p>
+            </div>
+    
+        </div>
+    
+        <div class="footer-right">
+    
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+    
+            <div class="footer-icons">
+    
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+    
+            </div>
+    
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
