@@ -7,7 +7,6 @@
 }
 
 body{
-    /*background-color: plum;*/
     background-image: url(../public/img/Japan_Tokyo_Bridge.jpg),
     linear-gradient(135deg, #00B7B4, #990d9e, #db26b4,
     #6361df, #866cd8, #e00dcf, #0997cf);
@@ -379,7 +378,7 @@ textarea{
 
 @media (max-width:730px){
     .volver {
-        transform: translate(35px,-60%);
+        transform: translate(160px,-60%);
     }
     main{
         transform: translate(0px,35px);
