@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../public/img/Japan_Tokyo_Bridge.jpg),
+    background-image: url(../img/Japan_Tokyo_Bridge.jpg),
     linear-gradient(135deg, #00B7B4, #990d9e, #db26b4,
     #6361df, #866cd8, #e00dcf, #0997cf);
     background-position: center;
