@@ -1,4 +1,4 @@
-![plot](../Proyecto%20Agencia%20de%20Viaje/public/img/Hong%20Kong/)
+
 ## Temática del sitio
 
 E-commerce de muebles de interior y decoración del hogar.
